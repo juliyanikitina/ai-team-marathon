@@ -116,3 +116,8 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .price-card{padding:24px}.price{font-size:58px}
 .join h2{font-size:32px}
 }
+/* Selective red editorial accents on light surfaces. */
+.hero-copy > .eyebrow{color:#ba242b}
+.hero-copy .dot{background:#ba242b}
+.audience h2{color:#ba242b}
+.join > div:first-child > .eyebrow{color:#ba242b}
