@@ -58,16 +58,16 @@ h1 em{display:inline-block;border-radius:9px;padding:0 10px 5px;margin-top:8px}
 .join>div:first-child{background:#ffffff;border:1px solid #ffffff;border-radius:24px;padding:36px}
 .join h2{font-size:39px;overflow-wrap:break-word}
 .join .large{font-size:18px}
-.price-card{background:#242429;border:1px solid #44444d;border-radius:24px;padding:32px;box-shadow:0 16px 45px #1616200c}
+.price-card{background:var(--lime);border:1px solid #e0ca00;border-radius:24px;padding:32px;box-shadow:0 16px 45px #1616200c}
 .price-label{display:inline-block;background:var(--lime);color:#171719;font-weight:700;padding:10px 13px;border-radius:8px;letter-spacing:1px}
-.price{color:#ffffff;font-size:68px;margin:24px 0 20px}
+.price{color:#171719;font-size:68px;margin:24px 0 20px}
 .price-card ul{margin:0 0 26px}
-.price-card li{padding:16px 0 16px 25px;margin:0;border-top:1px solid #494952;line-height:1.6;color:#c9c9d2;font-size:13px}
-.price-card li:before{color:var(--lime);top:17px}
-.price-card li strong{display:block;color:#ffffff;font-size:14px;margin-bottom:3px}
-.price-card .button{background:var(--lime);color:#171719;padding:21px 24px}
-.price-card .button:hover{background:#f0d800}
-.price-note{background:#34343c;border:1px solid #50505a;border-radius:12px;padding:16px;color:#d1d1da;font-size:12px;line-height:1.65}
+.price-card li{padding:16px 0 16px 25px;margin:0;border-top:1px solid #cfbc19;line-height:1.6;color:#343020;font-size:13px}
+.price-card li:before{color:#171719;top:17px}
+.price-card li strong{display:block;color:#171719;font-size:14px;margin-bottom:3px}
+.price-card .button{background:#171719;color:#ffffff;padding:21px 24px}
+.price-card .button:hover{background:#343438}
+.price-note{background:#fff2a3;border:1px solid #e0ca41;border-radius:12px;padding:16px;color:#423c20;font-size:12px;line-height:1.65}
 .faq{max-width:1240px;padding-top:40px}
 .faq details{background:#ffffff;border:1px solid #ffffff;border-radius:15px;padding:21px 25px;margin-top:11px}
 .faq h2{margin-bottom:30px}
