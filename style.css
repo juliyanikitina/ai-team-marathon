@@ -121,3 +121,6 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .hero-copy .dot{background:#ba242b}
 .audience h2{color:#ba242b}
 .join > div:first-child > .eyebrow{color:#ba242b}
+/* High-contrast day numbers in the programme. */
+.lesson .day{color:#e32636;font-weight:800}
+.lesson .day span{color:#ba242b;font-weight:700}
