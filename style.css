@@ -133,3 +133,30 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .price-card li strong{color:#171719}
 .price-card li:first-child{background:#ffe500;border-color:#e0ca00}
 .price-note{background:#f0f0f3;border:1px solid #e1e1e7;color:#595963}
+/* Audience needs and practical agent use cases. */
+.audience-intro h2 span{color:#ba242b}
+.audience-lead{max-width:850px;color:#505058}
+.pain-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:30px}
+.pain-grid article{background:#fff;border:1px solid #fff;border-radius:20px;padding:25px}
+.pain-grid article>span{color:#e32636;font-size:26px;font-weight:800}
+.pain-grid h3{font-size:20px;line-height:1.25;letter-spacing:-.4px;margin:16px 0 10px}
+.pain-grid p{font-size:14px;color:#606068;margin:0}
+.use-cases{padding-top:30px}
+.role-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.role-card{background:#fff;border-radius:23px;padding:27px;display:flex;flex-direction:column;min-width:0}
+.role-icon{display:grid;place-items:center;width:48px;height:48px;background:var(--lime);border-radius:13px;font-size:29px}
+.role-card h3{font-size:25px;letter-spacing:-.8px;margin:22px 0 10px}
+.role-goal{font-size:15px;font-weight:600;line-height:1.5;margin:0 0 18px}
+.role-card ul{padding:0;list-style:none;margin:0}
+.role-card li{padding:17px 0;border-top:1px solid #e2e2e7;font-size:14px;line-height:1.65;color:#5b5b64}
+.role-card li strong{display:block;color:#171719;margin-bottom:4px}
+.integration-note{background:#efeff3;border-radius:12px;padding:16px;color:#5b5b65;font-size:12px;line-height:1.65;margin:auto 0 0}
+.scope-note{padding:23px 27px;margin-top:18px;border:1px solid #c6c6cf;border-radius:16px;color:#50505a}
+.scope-note strong{font-size:15px;color:#171719}
+.scope-note p{font-size:13px;margin:9px 0 0}
+.bonus-card{margin-top:20px;background:#ffeb62;border:1px solid #ebd343;border-radius:22px;padding:30px;display:flex;align-items:center;gap:30px;justify-content:space-between}
+.bonus-card h3{font-size:27px;letter-spacing:-.7px;margin:12px 0}
+.bonus-card p{max-width:740px;font-size:15px;margin:0}
+.bonus-card .button{flex-shrink:0}
+@media(max-width:1000px){.role-grid{grid-template-columns:1fr}.role-card{padding:28px}.pain-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.role-card .integration-note{margin-top:15px}}
+@media(max-width:620px){.pain-grid{grid-template-columns:1fr}.pain-grid article{padding:22px}.bonus-card{display:block;padding:24px}.bonus-card .button{margin-top:22px}.bonus-card h3{font-size:24px}.role-card{padding:24px}}
