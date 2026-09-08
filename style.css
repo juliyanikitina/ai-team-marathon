@@ -128,8 +128,8 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .price-card{background:#ffffff;border:1px solid #ffffff;box-shadow:0 16px 40px #1717190c}
 .price-label{background:var(--lime);font-size:10px;line-height:1.6;letter-spacing:.9px;padding:10px 13px;border-radius:8px}
 .price-card ul{display:grid;gap:10px;margin-bottom:24px}
-.price-card li{background:#ffeb62;border:1px solid #ebd343;border-radius:12px;padding:16px 16px 16px 35px;color:#504b33}
-.price-card li:before{left:14px;top:17px;color:#6a5710}
+.price-card li{background:#ffe83d;border:1px solid #f1d522;border-radius:12px;padding:16px 16px 16px 35px;color:#302a18}
+.price-card li:before{left:14px;top:17px;color:#302a18}
 .price-card li strong{color:#171719}
 .price-card li:first-child{background:#ffe500;border-color:#e0ca00}
 .price-note{background:#f0f0f3;border:1px solid #e1e1e7;color:#595963}
@@ -154,7 +154,7 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .scope-note{padding:23px 27px;margin-top:18px;border:1px solid #c6c6cf;border-radius:16px;color:#50505a}
 .scope-note strong{font-size:15px;color:#171719}
 .scope-note p{font-size:13px;margin:9px 0 0}
-.bonus-card{margin-top:20px;background:#ffeb62;border:1px solid #ebd343;border-radius:22px;padding:30px;display:flex;align-items:center;gap:30px;justify-content:space-between}
+.bonus-card{margin-top:20px;background:#ffe83d;border:1px solid #f1d522;border-radius:22px;padding:30px;display:flex;align-items:center;gap:30px;justify-content:space-between}
 .bonus-card h3{font-size:27px;letter-spacing:-.7px;margin:12px 0}
 .bonus-card p{max-width:740px;font-size:15px;margin:0}
 .bonus-card .button{flex-shrink:0}
