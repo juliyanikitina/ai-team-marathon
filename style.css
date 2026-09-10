@@ -163,6 +163,10 @@ h1{font-size:48px;letter-spacing:-2.5px}
 /* Practical agent catalogue: role, task and a concrete example. */
 .agent-guide{padding-top:25px}
 .agent-guide h2 span{color:#ff2400}
+.profession-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:30px 0 42px}
+.profession-grid article{background:#fff;border:1px solid #fff;border-radius:20px;padding:25px}
+.profession-grid h3{font-size:20px;line-height:1.25;letter-spacing:-.4px;margin:0 0 10px}
+.profession-grid p{font-size:14px;line-height:1.65;color:#55555d;margin:0}
 .agent-explainer{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:28px 0 38px}
 .agent-explainer>div{background:#fff;border-radius:20px;padding:27px}
 .agent-explainer strong{font-size:19px}
@@ -178,7 +182,7 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .more-agents summary{font-weight:600;line-height:1.6}
 .more-agents .agent-catalog p{max-width:none}
 @media(max-width:1000px){.agent-catalog{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:620px){.agent-explainer,.agent-catalog{grid-template-columns:1fr}.agent-catalog article,.agent-explainer>div{padding:23px}.more-agents{padding:20px 16px}.agent-catalog-title h3{font-size:25px}}
+@media(max-width:620px){.agent-explainer,.agent-catalog,.profession-grid{grid-template-columns:1fr}.agent-catalog article,.agent-explainer>div,.profession-grid article{padding:23px}.more-agents{padding:20px 16px}.agent-catalog-title h3{font-size:25px}}
 .hero-duration{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 26px;font-size:18px;line-height:1.5;letter-spacing:-.3px}.hero-duration span{display:block;background:var(--lime);color:#171719;padding:11px 15px;border-radius:10px}.hero-duration strong{font-weight:800}@media(max-width:420px){.hero-duration{font-size:16px;gap:8px}.hero-duration span{padding:9px 12px}}
 .hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px}.text-link{font-size:14px;font-weight:700;border-bottom:1px solid #171719;padding:8px 0}.hero-person{display:none}.founder{display:flex;align-items:center;gap:22px;margin-bottom:28px}.founder img{width:152px;height:152px;object-fit:cover;border-radius:50%;border:6px solid var(--lime);box-shadow:0 0 0 2px #171719}.founder div{display:flex;flex-direction:column;gap:6px;min-width:0}.founder span{font-size:9px;letter-spacing:1.4px;color:#b9b9c2}.founder strong{font-size:20px}.founder small{max-width:330px;font-size:10px;line-height:1.5;color:#c1c1ca}.format-button{margin-top:24px;background:var(--lime);color:#171719}.format-button:hover{background:#fff066}.footer-cta{font-size:13px;font-weight:700;border-bottom:1px solid #171719;padding:8px 0}@media(max-width:760px){.hero-person{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:24px}.hero-person img{order:2;width:132px;height:132px;object-fit:cover;border-radius:50%;border:6px solid var(--lime);box-shadow:0 0 0 2px #171719;flex-shrink:0}.hero-person span{display:flex;flex-direction:column;gap:5px;max-width:220px}.hero-person strong{font-size:18px}.hero-person small{font-size:12px;color:#626268}}@media(max-width:420px){.hero-person{gap:14px}.hero-person img{width:112px;height:112px}.founder{align-items:flex-start}.founder img{width:105px;height:105px}.founder strong{font-size:18px}.founder small{font-size:9px}.hero-actions .button{width:100%}.footer-cta{width:100%}}
 .nav-button,#enroll{background:#ff2400;color:#fff;border-color:#ff2400}.nav-button:hover,#enroll:hover{background:#ff2400;border-color:#ff2400;filter:brightness(.86)}
