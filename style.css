@@ -179,3 +179,4 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .more-agents .agent-catalog p{max-width:none}
 @media(max-width:1000px){.agent-catalog{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:620px){.agent-explainer,.agent-catalog{grid-template-columns:1fr}.agent-catalog article,.agent-explainer>div{padding:23px}.more-agents{padding:20px 16px}.agent-catalog-title h3{font-size:25px}}
+.hero-duration{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 26px;font-size:18px;line-height:1.5;letter-spacing:-.3px}.hero-duration span{display:block;background:var(--lime);color:#171719;padding:11px 15px;border-radius:10px}.hero-duration strong{font-weight:800}@media(max-width:420px){.hero-duration{font-size:16px;gap:8px}.hero-duration span{padding:9px 12px}}
