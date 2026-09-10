@@ -117,13 +117,13 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .join h2{font-size:32px}
 }
 /* Selective red editorial accents on light surfaces. */
-.hero-copy > .eyebrow{color:#ba242b}
-.hero-copy .dot{background:#ba242b}
-.audience h2{color:#ba242b}
-.join > div:first-child > .eyebrow{color:#ba242b}
+.hero-copy > .eyebrow{color:#ff1f3d}
+.hero-copy .dot{background:#ff1f3d}
+.audience h2{color:#ff1f3d}
+.join > div:first-child > .eyebrow{color:#ff1f3d}
 /* High-contrast day numbers in the programme. */
-.lesson .day{color:#e32636;font-weight:800}
-.lesson .day span{color:#ba242b;font-weight:700}
+.lesson .day{color:#ff1f3d;font-weight:800}
+.lesson .day span{color:#ff1f3d;font-weight:700}
 /* Pricing: neutral shell with individual yellow outcome cards. */
 .price-card{background:#ffffff;border:1px solid #ffffff;box-shadow:0 16px 40px #1717190c}
 .price-label{background:var(--lime);font-size:10px;line-height:1.6;letter-spacing:.9px;padding:10px 13px;border-radius:8px}
@@ -134,11 +134,11 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .price-card li:first-child{background:#ffe500;border-color:#e0ca00}
 .price-note{background:#f0f0f3;border:1px solid #e1e1e7;color:#595963}
 /* Audience needs and practical agent use cases. */
-.audience-intro h2 span{color:#ba242b}
+.audience-intro h2 span{color:#ff1f3d}
 .audience-lead{max-width:850px;color:#505058}
 .pain-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:30px}
 .pain-grid article{background:#fff;border:1px solid #fff;border-radius:20px;padding:25px}
-.pain-grid article>span{color:#e32636;font-size:26px;font-weight:800}
+.pain-grid article>span{color:#ff1f3d;font-size:26px;font-weight:800}
 .pain-grid h3{font-size:20px;line-height:1.25;letter-spacing:-.4px;margin:16px 0 10px}
 .pain-grid p{font-size:14px;color:#606068;margin:0}
 .use-cases{padding-top:30px}
@@ -162,7 +162,7 @@ h1{font-size:48px;letter-spacing:-2.5px}
 @media(max-width:620px){.pain-grid{grid-template-columns:1fr}.pain-grid article{padding:22px}.bonus-card{display:block;padding:24px}.bonus-card .button{margin-top:22px}.bonus-card h3{font-size:24px}.role-card{padding:24px}}
 /* Practical agent catalogue: role, task and a concrete example. */
 .agent-guide{padding-top:25px}
-.agent-guide h2 span{color:#ba242b}
+.agent-guide h2 span{color:#ff1f3d}
 .agent-explainer{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:28px 0 38px}
 .agent-explainer>div{background:#fff;border-radius:20px;padding:27px}
 .agent-explainer strong{font-size:19px}
@@ -170,7 +170,7 @@ h1{font-size:48px;letter-spacing:-2.5px}
 .agent-catalog-title h3{font-size:28px;letter-spacing:-.7px;margin-bottom:10px}
 .agent-catalog{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
 .agent-catalog article{background:#fff;border:1px solid #fff;border-radius:20px;padding:25px;display:flex;flex-direction:column;min-width:0}
-.agent-tag{font-size:10px;letter-spacing:1px;font-weight:700;color:#ba242b}
+.agent-tag{font-size:10px;letter-spacing:1px;font-weight:700;color:#ff1f3d}
 .agent-catalog h3{font-size:23px;letter-spacing:-.5px;line-height:1.25;margin:17px 0 10px}
 .agent-catalog p{font-size:14px;color:#55555d;margin:0 0 20px}
 .agent-task{background:#ffe83d;border-radius:11px;padding:15px;font-size:13px;line-height:1.55;color:#302a18;margin-top:auto}
@@ -181,4 +181,4 @@ h1{font-size:48px;letter-spacing:-2.5px}
 @media(max-width:620px){.agent-explainer,.agent-catalog{grid-template-columns:1fr}.agent-catalog article,.agent-explainer>div{padding:23px}.more-agents{padding:20px 16px}.agent-catalog-title h3{font-size:25px}}
 .hero-duration{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 26px;font-size:18px;line-height:1.5;letter-spacing:-.3px}.hero-duration span{display:block;background:var(--lime);color:#171719;padding:11px 15px;border-radius:10px}.hero-duration strong{font-weight:800}@media(max-width:420px){.hero-duration{font-size:16px;gap:8px}.hero-duration span{padding:9px 12px}}
 .hero-actions{display:flex;align-items:center;flex-wrap:wrap;gap:18px}.text-link{font-size:14px;font-weight:700;border-bottom:1px solid #171719;padding:8px 0}.hero-person{display:none}.founder{display:flex;align-items:center;gap:17px;margin-bottom:24px}.founder img{width:112px;height:112px;object-fit:cover;border-radius:50%;border:5px solid var(--lime);box-shadow:0 0 0 2px #171719}.founder div{display:flex;flex-direction:column;gap:6px;min-width:0}.founder span{font-size:9px;letter-spacing:1.4px;color:#b9b9c2}.founder strong{font-size:20px}.founder small{max-width:330px;font-size:10px;line-height:1.5;color:#c1c1ca}.format-button{margin-top:24px;background:var(--lime);color:#171719}.format-button:hover{background:#fff066}.footer-cta{font-size:13px;font-weight:700;border-bottom:1px solid #171719;padding:8px 0}@media(max-width:760px){.hero-person{display:flex;align-items:center;gap:12px;margin-bottom:20px}.hero-person img{width:64px;height:64px;object-fit:cover;border-radius:50%;border:4px solid var(--lime);box-shadow:0 0 0 2px #171719}.hero-person span{display:flex;flex-direction:column;gap:3px}.hero-person strong{font-size:15px}.hero-person small{font-size:11px;color:#626268}}@media(max-width:420px){.founder{align-items:flex-start}.founder img{width:82px;height:82px}.founder strong{font-size:18px}.founder small{font-size:9px}.hero-actions .button{width:100%}.footer-cta{width:100%}}
-.nav-button,#enroll{background:#e32636;color:#fff;border-color:#e32636}.nav-button:hover,#enroll:hover{background:#b91f2b;border-color:#b91f2b}
+.nav-button,#enroll{background:#ff1f3d;color:#fff;border-color:#ff1f3d}.nav-button:hover,#enroll:hover{background:#ff1f3d;border-color:#ff1f3d;filter:brightness(.86)}
